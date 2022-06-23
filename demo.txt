@@ -1,0 +1,15 @@
+#!/bin/bash
+#the below line expect some input from the user
+read -p "please enter your marks: " marks
+if [ $marks -ge 80 ]; then
+echo "excellent"
+elif [ $marks -ge 60 ]
+then
+  echo "Good"
+elif [ $marks -ge 40 ]
+then
+  echo "Average"
+
+else
+echo    "failed"
+fi
